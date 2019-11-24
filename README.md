@@ -8,9 +8,12 @@ $ git clone git@github.com:luisaugusto/wordpress-default.git
 Next, download and install [MAMP](https://www.mamp.info/en/downloads/) to setup a local environment. In the preferences, make sure that the PHP version is set to at least `7.2.14` and the web server is pointed at the Wordpress root directory. Once all of that is setup, you should be able to start the server and go to [localhost:8888](http://localhost:8888/) and be redirected to Wordpress Config Setup page.
 
 ### MAMP Tools
-| MAMP Start Page | [localhost:8888/MAMP](http://localhost:8888/MAMP/) |
-| phpMyAdmin | [localhost:8888/phpMyAdmin](http://localhost:8888/phpMyAdmin/) |
-| phpINfo | [localhost:8888/MAMP/index.php?language=English&page=phpinfo](http://localhost:8888/MAMP/index.php?language=English&page=phpinfo)
+
+ Tool | URL
+  --- | ---
+MAMP Start Page | [localhost:8888/MAMP](http://localhost:8888/MAMP/)
+phpMyAdmin | [localhost:8888/phpMyAdmin](http://localhost:8888/phpMyAdmin/)
+phpINfo | [localhost:8888/MAMP/index.php?language=English&page=phpinfo](http://localhost:8888/MAMP/index.php?language=English&page=phpinfo)
 
 ### Setting Up an Existing Site
 
