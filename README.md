@@ -23,6 +23,8 @@ If you are setting up an already working Wordpress installation, you'll need to 
  
 Create a new database in [phpMyAdmin](http://localhost:8888/phpMyAdmin/), making sure that the collation is set to `utf8_general_ci`. Then, run the Wordpress config setup using the database you created and Wordpress will populate your database for you and create a `wp-config.php` file in the Wordpress root directory.
 
+> If you get an error establishing a database connection, try changing the hostname from `localhost` to `localhost:8889` or append whichever port your MySQL server is running on. 
+
 #### WP Config Settings
 
 In your `wp-config.php`, find the `WP_DEBUG` definition and set it to `true`. Also, add the following lines below it:
@@ -33,5 +35,3 @@ define( 'WP_DEBUG_LOG', true );
 ```
 
 To learn about what these do, go to the [Wordpress Developer Documentation](https://developer.wordpress.org/themes/getting-started/setting-up-a-development-environment/#wp_debug)
-
-- Enable iMagick in php.ini
