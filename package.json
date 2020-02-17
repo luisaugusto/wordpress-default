@@ -1,0 +1,35 @@
+{
+  "name": "wordpress-default",
+  "version": "1.0.0",
+  "description": "The base template for my Wordpress themes",
+  "keywords": [
+    "Wordpress",
+    "PHP",
+    "Typescript",
+    "SCSS"
+  ],
+  "scripts": {
+    "watchers": "npm run sass && concurrently --kill-others \"npm run sass -- -w\" \"npm run typescript\"",
+    "sass": "node-sass ./src/css/style.scss --output-style compact -o ./ --source-map true",
+    "typescript": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisaugusto/wordpress-default.git"
+  },
+  "author": {
+    "name": "Luis Augusto",
+    "email": "hello@luis.codes",
+    "url": "https://luis.codes"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/luisaugusto/wordpress-default/issues"
+  },
+  "homepage": "https://github.com/luisaugusto/wordpress-default#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "node-sass": "^4.13.1",
+    "typescript": "^3.7.5"
+  }
+}

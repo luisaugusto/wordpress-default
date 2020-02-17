@@ -35,3 +35,11 @@ define( 'WP_DEBUG_LOG', true );
 ```
 
 To learn about what these do, go to the [Wordpress Developer Documentation](https://developer.wordpress.org/themes/getting-started/setting-up-a-development-environment/#wp_debug)
+
+## Node Scripts & Compilers
+
+This template make makes use of Node for its scripts and stylesheet compilation. Once you have the repository cloned, make sure to run `npm install`.
+
+To use the watchers, run `npm run watchers`. This will create the `style.css` file and compile all SCSS files to that location. It will also compile TypeScript into the `dist` folder where it will be served.
+
+Alternatively, you can run `npm run sass` to build the stylesheet and `npm run typescript` to build the scripts.
