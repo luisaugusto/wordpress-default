@@ -1,4 +1,18 @@
-# Wordpress Default
+![GitHub package.json version](https://img.shields.io/github/package-json/v/luisaugusto/wordpress-default)
+![GitHub repo size](https://img.shields.io/github/repo-size/luisaugusto/wordpress-default)
+![GitHub](https://img.shields.io/github/license/luisaugusto/wordpress-default) 
+
+###### Please consider supporting my work and other projects:
+
+[![Plant a Tree](https://img.shields.io/badge/Plant%20a%20Tree-%F0%9F%8C%B3-green)](https://offset.earth/luisaugusto)
+[![Buy Me a Boba Tea](https://img.shields.io/badge/Buy%20Me%20a%20Boba%20Tea-🥤-yellow)](https://www.buymeacoffee.com/luiscodes)
+
+
+# Wordpress Custom Default Theme
+
+After working on many different Wordpress sites, I wanted to build a skeleton theme that featured modern technologies and build tools to help make the theme process a more enjoyable process.
+
+This theme includes all the required files for a Wordpress, but is very minimal, without any specific templates. It makes use of Typescript and SCSS files which are added to the `src` folder and compiled with Node.
 
 ## Configuring Local Development
 Download the latest version of [Wordpress](https://wordpress.org/download/) and clone this repository into the `/wp-content/themes` directory.
